@@ -10,7 +10,7 @@ kits.forEach(kits=> {
     containerEl.appendChild(btnEl);
     const audioEl = document.createElement("audio");
     containerEl.appendChild(audioEl);
-    audioEl.src = "Sounds/"+kits+".mp3"
+    audioEl.src = "Drum-Kits/Sounds/"+kits+".mp3"
     btnEl.addEventListener("click",(event)=> {
         audioEl.play();
     });
